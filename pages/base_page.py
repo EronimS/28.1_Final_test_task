@@ -429,5 +429,3 @@ class BasePage():
         korzina_list = self.find_element(BasePageLocators.KorzinaLokators.KORZINA_LIST)
         result = korzina_list.text
         assert  result == 'Корзина пуста'
-
-        
